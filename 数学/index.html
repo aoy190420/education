@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <title>Hello PWA</title>
+    <link rel="apple-touch-icon" href="ios-ipados-icon.png" />
+    <link rel="manifest" href="manifest.webmanifest">
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0');
+      @font-face {
+        font-family: A19SansJP;
+        src: url('https://aoy190420.github.io/web-font/F+UD/NewRodin/WOFF2/F+UD-NewRodin-B.woff2');
+        font-weight: 700;
+      }
+      @font-face {
+        font-family: A19SansJP;
+        src: url('https://aoy190420.github.io/web-font/F+UD/NewRodin/WOFF2/F+UD-NewRodin-DB.woff2');
+        font-weight: 600;
+      }
+      @font-face {
+        font-family: A19SansJP;
+        src: url('https://aoy190420.github.io/web-font/F+UD/NewRodin/WOFF2/F+UD-NewRodin-M.woff2');
+        font-weight: 400;
+      }
+      *,body,html {
+        font-family: "A19SansJP",sans-serif;
+        font-family: 400;
+      }
+      h1,h2,h3,h4,h5,h6 {
+        font-family: "A19SansJP",sans-serif;
+        font-family: 700;
+      }
+      B,strong {
+        font-family: "A19SansJP",sans-serif;
+        font-family: 600;
+      }
+      .material-symbols-rounded {
+        font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 48
+      }
+    </style>
+  </head>
+  <div class="container">
+  <body>
+    <h1>ホーム画面に追加する方法</h1>
+    <script>
+      window.addEventListener('load', () => {
+        if ('serviceWorker' in navigator) {
+          navigator.serviceWorker
+            .register('sw.js')
+            .then(registration => console.log('registered', registration))
+            .catch(error => console.log('error', error));
+        }
+      });
+    </script>
+    <h2>iPad・iPhone</h2>
+    <ol>
+      <li>
+        <B>Safari</B>を開く
+      </li>
+      <li>
+        <B>このサイト</B>を開く
+      </li>
+      <li>
+        <span class="material-symbols-rounded">ios_share</span>（共有）
+      </li>
+      <li>
+        <span class="material-symbols-rounded">add_box</span>ホーム画面に追加
+      </li>
+      <li>
+        <B>追加</B>
+      </li>
+    </ol>
+    <h2>Android</h2>
+    <h3>方法1</h3>
+    <ol>
+      <li>
+        <B>Chrome</B>もしくは<B>Firefox</B>を開く
+      </li>
+      <li>
+        <B>このサイト</B>を開く
+      </li>
+      <li>
+        <span class="material-symbols-rounded">more_vert</span>（共有）
+      </li>
+      <li>
+        <B>ホーム画面に追加</B>
+      </li>
+      <li>
+        <B>追加</B>
+      </li>
+    </ol>
+    <h3>方法2</h3>
+    <ol>
+      <li>
+        <B>Chrome</B>もしくは<B>Firefox</B>を開く
+      </li>
+      <li>
+        <B>このサイト</B>を開く
+      </li>
+      <li>
+        下部の<B>ホーム画面に追加</B>
+      </li>
+      <li>
+        <B>追加</B>
+      </li>
+    </ol>
+    <h2>Windows・Mac・Chromebook</h2>
+    <h3>Chrome</h3>
+    <ol>
+      <li>
+        <B>このサイト</B>を開く
+      </li>
+      <li>
+        <span class="material-symbols-rounded">install_desktop</span>（インストール）
+      </li>
+      <li>
+        <B>インストール</B>
+      </li>
+    </ol>
+    <h3>Edge</h3>
+    <ol>
+      <li>
+        <B>このサイト</B>を開く
+      </li>
+      <li>
+        <span class="material-symbols-rounded">grid_view</span><span class="material-symbols-rounded">add</span>（インストール）
+      </li>
+      <li>
+        <B>インストール</B>
+      </li>
+    </ol>
+  </body>
+</html>
