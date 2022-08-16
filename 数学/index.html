@@ -1,53 +1,17 @@
 <!DOCTYPE html>
 <html lang="ja">
-  <head>
+<head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
-    <title>Hello PWA</title>
+    <title>中3数学練習プリント - Install</title>
+    <link href="https://cdn.jsdelivr.net/npm/beercss@2.2.9/dist/cdn/beer.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/beercss@2.2.9/dist/cdn/beer.min.js" type="text/javascript"></script>
+    <script src="https://cdn.jsdelivr.net/npm/material-dynamic-colors@0.0.10/dist/cdn/material-dynamic-colors.min.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="style.css">
     <link rel="apple-touch-icon" href="ios-ipados-icon.png" />
     <link rel="manifest" href="manifest.webmanifest">
-    <style>
-      @import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0');
-      @font-face {
-        font-family: A19SansJP;
-        src: url('https://aoy190420.github.io/web-font/F+UD/NewRodin/WOFF2/F+UD-NewRodin-B.woff2');
-        font-weight: 700;
-      }
-      @font-face {
-        font-family: A19SansJP;
-        src: url('https://aoy190420.github.io/web-font/F+UD/NewRodin/WOFF2/F+UD-NewRodin-DB.woff2');
-        font-weight: 600;
-      }
-      @font-face {
-        font-family: A19SansJP;
-        src: url('https://aoy190420.github.io/web-font/F+UD/NewRodin/WOFF2/F+UD-NewRodin-M.woff2');
-        font-weight: 400;
-      }
-      *,body,html {
-        font-family: "A19SansJP",sans-serif;
-        font-family: 400;
-      }
-      h1,h2,h3,h4,h5,h6 {
-        font-family: "A19SansJP",sans-serif;
-        font-family: 700;
-      }
-      B,strong {
-        font-family: "A19SansJP",sans-serif;
-        font-family: 600;
-      }
-      .material-symbols-rounded {
-        font-variation-settings:
-        'FILL' 0,
-        'wght' 400,
-        'GRAD' 0,
-        'opsz' 48
-      }
-    </style>
-  </head>
-  <div class="container">
-  <body>
-    <h1>ホーム画面に追加する方法</h1>
+    <link rel="apple-touch-icon" href="ios-ipados-icon.png" />
     <script>
       window.addEventListener('load', () => {
         if ('serviceWorker' in navigator) {
@@ -58,82 +22,164 @@
         }
       });
     </script>
-    <h2>iPad・iPhone</h2>
-    <ol>
-      <li>
-        <B>Safari</B>を開く
-      </li>
-      <li>
-        <B>このサイト</B>を開く
-      </li>
-      <li>
-        <span class="material-symbols-rounded">ios_share</span>（共有）
-      </li>
-      <li>
-        <span class="material-symbols-rounded">add_box</span>ホーム画面に追加
-      </li>
-      <li>
-        <B>追加</B>
-      </li>
-    </ol>
-    <h2>Android</h2>
-    <h3>方法1</h3>
-    <ol>
-      <li>
-        <B>Chrome</B>もしくは<B>Firefox</B>を開く
-      </li>
-      <li>
-        <B>このサイト</B>を開く
-      </li>
-      <li>
-        <span class="material-symbols-rounded">more_vert</span>（共有）
-      </li>
-      <li>
-        <B>ホーム画面に追加</B>
-      </li>
-      <li>
-        <B>追加</B>
-      </li>
-    </ol>
-    <h3>方法2</h3>
-    <ol>
-      <li>
-        <B>Chrome</B>もしくは<B>Firefox</B>を開く
-      </li>
-      <li>
-        <B>このサイト</B>を開く
-      </li>
-      <li>
-        下部の<B>ホーム画面に追加</B>
-      </li>
-      <li>
-        <B>追加</B>
-      </li>
-    </ol>
-    <h2>Windows・Mac・Chromebook</h2>
-    <h3>Chrome</h3>
-    <ol>
-      <li>
-        <B>このサイト</B>を開く
-      </li>
-      <li>
-        <span class="material-symbols-rounded">install_desktop</span>（インストール）
-      </li>
-      <li>
-        <B>インストール</B>
-      </li>
-    </ol>
-    <h3>Edge</h3>
-    <ol>
-      <li>
-        <B>このサイト</B>を開く
-      </li>
-      <li>
-        <span class="material-symbols-rounded">grid_view</span><span class="material-symbols-rounded">add</span>（インストール）
-      </li>
-      <li>
-        <B>インストール</B>
-      </li>
-    </ol>
-  </body>
+</head>
+<header>
+    <nav>
+      <h5 class="max left-align">インストール方法(V2)</h5>
+    </nav>
+</header>
+<main class="responsive">
+<body>
+  <p>R4/8/17 AM0:28最終更新</p>
+  <div>
+    <div class="tabs">
+      <a class="wrap active" data-ui="#ios_ipados">
+        <i>tablet_mac</i>
+        <span>iPad・iPhone</span>
+      </a>
+      <a class="wrap" data-ui="#android">
+        <i>phone_android</i>
+        <span>Android</span>
+      </a>
+      <a class="wrap" data-ui="#computer">
+        <i>computer</i>
+        <span>PC</span>
+      </a>
+    </div>
+    <!-- 内容 -->
+    <div class="page padding active left" id="ios_ipados">
+      <h2>iPad・iPhone</h2>
+      
+      <div class="row">
+        <h2 class="min">1.</h2>
+        <div class="max">
+          <h4>Safariで このURLを入力し開きます</h4>
+          <p>右のアイコンでQRコードを表示します</p>
+          <p>あんしんフィルターで制限していると、使用できません</p>
+        </div>
+        <button class="none" data-ui="#qr_code">
+          <i>qr_code</i>
+        </button>
+      </div>
+
+      <div class="row">
+        <h2 class="min">2.</h2>
+        <div class="max">
+          <h4>共有アイコン(<i>ios_share</i>)</h4>
+          <p>右のアイコンでQRコードを表示します</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <h2 class="min">3.</h2>
+        <div class="max">
+          <h4>ホーム画面に追加(<i>add_box</i>)</h4>
+        </div>
+      </div>
+
+      <div class="row">
+        <h2 class="min">4.</h2>
+        <div class="max">
+          <h4>名前を変更(<i>add_box</i>)</h4>
+          <p>初期値では、「<code>中3数学練習プリント</code>」です</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <h2 class="min">5.</h2>
+        <div class="max">
+          <h4>ホーム画面を確認すると 追加されています</h4>
+          <p>もし追加されていなかったら、"Appライブラリ"を見てみてください</p>
+        </div>
+      </div>
+
+    </div>
+    <div class="page padding top" id="android">
+      <h2>Android</h2>
+      
+      <div class="row">
+        <h2 class="min">1.</h2>
+        <div class="max">
+          <h4>Google Chromeで このURLを入力し開きます</h4>
+          <p>右のアイコンでQRコードを表示します</p>
+          <p>あんしんフィルターで制限していると、使用できません</p>
+        </div>
+        <button class="none" data-ui="#qr_code">
+          <i>qr_code</i>
+        </button>
+      </div>
+      
+      <div class="row">
+        <h2 class="min">2.</h2>
+        <div class="max">
+          <h4>下部に表示される「ホーム画面に 中3数学プリント を追加」</h4>
+        </div>
+      </div>
+
+      <div class="row">
+        <h2 class="min">3.</h2>
+        <div class="max">
+          <h4>ホーム画面に追加されています</h4>
+          <p>もし表示されない場合は、ランチャーの設定を確認します</p>
+        </div>
+      </div>
+
+    </div>
+    <div class="page padding right" id="computer">
+      <h2>PC</h2>
+      <p><B>対象:</B> Windows 7以降，macOS 10.12以降，Debian/UbuntuまたはFedora/openSUSE，Chromebook，Chrome OS，Chrome OS Flex</p>
+      
+      <div class="row">
+        <h2 class="min">0.</h2>
+        <div class="max">
+          <h4>Google ChromeまたはMicrosoft Edge(Chromium)を用意します</h4>
+        </div>
+      </div>
+      
+      <div class="row">
+        <h2 class="min">1.</h2>
+        <div class="max">
+          <h4>ChromeまたはEdgeで aoy190420.github.io/mat-ins にアクセスします</h4>
+          <p>右のアイコンでQRコードを表示します</p>
+        </div>
+        <button class="none" data-ui="#qr_code">
+          <i>qr_code</i>
+        </button>
+      </div>
+      
+      <div class="row">
+        <h2 class="min">2.</h2>
+        <div class="max">
+          <h4>アドレスバーに<i>install_desktop</i>または<img src="edge_install-icon.gif" alt="Edgeのインストールアイコン">が表示されます</h4>
+        </div>
+      </div>
+      
+      <div class="row">
+        <h2 class="min">3.</h2>
+        <div class="max">
+          <h4>次のように表示されたら"インストール"します</h4>
+        </div>
+      </div>
+      <img src="chrome_install-check.gif" alt="" srcset="" width="250px">
+      <img src="edge_install-check.gif" alt="" srcset="" width="250px">
+      
+      <div class="row">
+        <h2 class="min">4.</h2>
+        <div class="max">
+          <h4><img src="windows11_start.gif" width="25px">や<img src="mac_launchpad.gif" width="25px">などからアプリを探し開きます</h4>
+        </div>
+      </div>
+
+    </div>
+    <!-- QR -->
+    <div class="modal medium" id="qr_code">
+      <h5>QRコード</h5>
+      <img src="qr-code.png" width="100%">
+      <p>または，<code>aoy190420.github.io/mat-ins</code></p>
+      <nav class="right-align">
+        <button class="border" data-ui="#qr_code">閉じる</button>
+      </nav>
+    </div>
+  </div>
+</body>
 </html>

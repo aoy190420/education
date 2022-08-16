@@ -1,10 +1,10 @@
 {
-  "name": "中3数学特訓プリントリスト",
-  "short_name": "中3数学プリント",
-  "start_url": "jump.html",
+  "name": "for Education",
+  "short_name": "Education",
+  "start_url": "./",
   "display": "fullscreen",
-  "background_color": "#0083c9",
-  "theme_color": "#0083c9",
+  "background_color": "#fffbf7",
+  "theme_color": "#fffbf7",
   "icons": [
     {
       "src": "home.png",

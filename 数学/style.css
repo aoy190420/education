@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,300,0,0");
+@import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,300,1,0");
+@import url('https://fonts.googleapis.com/css2?family=Klee+One:wght@400;600&family=Noto+Sans+JP:wght@100;300;400;500;700;900&family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Noto+Sans+TC:wght@100;300;400;500;700;900&family=Noto+Sans+SC:wght@100;300;400;500;700;900&family=M+PLUS+Rounded+1c:wght@100;300;400;500;700;800;900&family=Roboto+Flex:opsz,wght@8..144,100;8..144,200;8..144,300;8..144,400;8..144,500;8..144,600;8..144,700;8..144,800;8..144,900&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Google+Sans+Text:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Google+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+i {
+    font-family: 'Material Symbols Outlined';
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 300,
+    'GRAD' 200,
+    'opsz' 48
+}
+nav .active i {
+    font-family: 'Material Symbols Rounded';
+    font-variation-settings:
+    'FILL' 1,
+    'wght' 300,
+    'GRAD' 200,
+    'opsz' 48
+}
+.glass {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6.5px);
+    -webkit-backdrop-filter: blur(6.5px);
+}
+h1 {
+    font-size: 48px;
+}
+h2 {
+    font-size: 36px;
+}
+h3 {
+    font-size: 24px;
+}
+h4,.list {
+    font-size: 18px;
+}
+h5,.small {
+    font-size: 14px;
+}
+h6 {
+    font-size: 12px;
+}
+header h5,h5.no-margin,h5 article,article h5,.modal h5 {
+    font-size: 24px;
+}
+body {
+    --primary:#6a5f00;--on-primary:#ffffff;--primary-container:#f9e534;--on-primary-container:#201c00;--secondary:#645f41;--on-secondary:#ffffff;--secondary-container:#ebe3bd;--on-secondary-container:#1f1c05;--tertiary:#406652;--on-tertiary:#ffffff;--tertiary-container:#c2ecd2;--on-tertiary-container:#002112;--error:#ba1b1b;--error-container:#ffdad4;--on-error:#ffffff;--on-error-container:#410001;--background:#fffbf7;--on-background:#1d1c16;--surface:#fffbf7;--on-surface:#1d1c16;--surface-variant:#e8e2d0;--on-surface-variant:#4a473a;--outline:#7b7768;--inverse-on-surface:#f5f0e7;--inverse-surface:#32302a;--inverse-primary:#dbc808;--shadow:#000000;
+    padding-bottom: env(safe-area-inset-bottom);
+}
+article {
+    font-family: 'BIZ UDPMincho', serif;
+}
+*,html,body,nav,div,span,p,.modal,toast,select {
+    font-family: "Google Sans Text","Noto Sans JP",sans-serif;
+    font-weight: 400;
+}
+B,h1,h2,h3,h4,h5,h6,strong,.navbar-brand,.uk-heading-medium,.bold,chip,thead {
+    font-family: "Google Sans","Noto Sans JP",sans-serif;
+    font-weight: 700;
+}
+code,#Times,#Dates,.mono {
+    font-family: "Roboto Mono","Noto Sans JP",monospace;
+}
+.sc {
+    font-family: "Google Sans Text","Noto Sans SC",sans-serif;
+}
+.tc {
+    font-family: "Google Sans Text","Noto Sans TC",sans-serif;
+}
+.kr {
+    font-family: "Google Sans Text","Noto Sans KR",sans-serif;
+}
+.glass {
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+}
