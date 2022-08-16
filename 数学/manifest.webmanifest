@@ -1,10 +1,10 @@
 {
-  "name": "for Education",
-  "short_name": "Education",
-  "start_url": "./",
+  "name": "中3数学練習プリント",
+  "short_name": "練習プリント",
+  "start_url": "//https://nieru.net/nitbbs",
   "display": "fullscreen",
-  "background_color": "#fffbf7",
-  "theme_color": "#fffbf7",
+  "background_color": "#fff",
+  "theme_color": "#fff",
   "icons": [
     {
       "src": "home.png",
