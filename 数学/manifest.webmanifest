@@ -1,3 +1,4 @@
+// V1.3
 {
   "name": "中3数学練習プリント",
   "short_name": "練習プリント",
@@ -8,7 +9,6 @@
   "icons": [
     {
       "src": "home.png",
-      "sizes": "192x192",
       "type": "image/png"
     }
   ]
