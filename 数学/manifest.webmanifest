@@ -1,11 +1,9 @@
-// V1.3
+// V1.4
 {
   "name": "中3数学練習プリント",
   "short_name": "練習プリント",
   "start_url": "jump",
   "display": "fullscreen",
-  "background_color": "#fff",
-  "theme_color": "#fff",
   "icons": [
     {
       "src": "home.png",
