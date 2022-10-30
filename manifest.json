@@ -1,7 +1,4 @@
 {
-    "name": "Keijiban",
-    "start_url": "index.html",
-    "display": "standalone",
-    "background_color": "#FFFFFF",
-    "theme_color": "#4e342e"
-  }
+    "theme_color": "#E7E0EC",
+    "start_url": "https://aoy190420.github.io/jp/education"
+}
